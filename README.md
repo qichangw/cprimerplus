@@ -20,4 +20,3 @@
 
 ​                                     b.int main(){  语句 return 0;}
 
-666666
