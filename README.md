@@ -77,3 +77,45 @@ b.语法错误：一般是忘记分号等问题，编译器可以将问题解决
 8.非打印字符：ASCⅡ码
 
 9.初始化（initialize):给variable开辟一个与变量类型相应大小的空间
+
+10._Bool型变量：占一个bite 只有1和0分别表示true和false
+
+11.C99中的两个头文件
+
+#include<inttypes.h>
+
+#include<stdint.h>
+
+这两个头文件是为了适配不同的系统并确保功能相同而编写的c99标准
+
+例如：精确宽度整数类型（exact-width integer type) 由计算机不支持的可能性
+
+最小宽度类型（minimum width type）有代表性的 int_least8_t如果计算机最小是16位仍然可以使用但是计算机会实现为16位整数类型
+
+最快最小宽度类型（fastest minimum width type）运算速度最快的int_fast8_t
+
+12.intmax_t和uintmax_t分别表示最大有符号和无符号整数类型他们可以表示的数字比long long int 和unsighed long long int 还要大
+
+13. PRId32字符串宏   由于int可能是16位也可能是32位C99标准确立了该字符串宏以确保32位int和16位int的等效转换
+
+14. float型最多可以保留六位有效数字
+
+    double型可以保留10位以上的有效数字
+
+15.复数的表示
+
+ float_Complex 、double_Complex 、long double_Complex
+
+16. 虚数的表示
+
+float_Imaginary 、double_Imaginary 、long double_Imaginary
+
+17.浮点值常量:e前面不要加空格
+
+18.上溢（overflow）和下溢（underflow）subnormal浮点值
+
+例如：.1234E-10除以10=.0123E-10;就是出现了下溢现象损失了数值
+
+NaN未定义量和inf超出最大范围量
+
+​    
