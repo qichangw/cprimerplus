@@ -118,4 +118,35 @@ float_Imaginary 、double_Imaginary 、long double_Imaginary
 
 NaN未定义量和inf超出最大范围量
 
-​    
+19.\\\表示输出\
+
+\‘表示输出’
+
+\“表示输出”
+
+20.关键概念
+
+例如float型和int型大小都是32位但是存储方式和运算过程有很大的不同
+
+就像256.0f在int中就是113246208但是当我们输出时由于强制类型转换的存在
+
+会看成256；就如同二进制与十进制
+
+21.有趣的转义序列（escape sequence）
+
+```c
+#define _CRT_SECURE_NO_WARNINGS
+#include<stdio.h>
+int main() {
+	float salary;
+
+	printf("\aEnter your desired monthly salary:");//\a响铃bell
+	printf("$___\b\b\b");//\b退格符
+	scanf("%f", &salary);
+	printf("\n\t$%.2f a month is $%.2f a year.", salary,ng
+		salary * 12.0);//\t tab键
+	printf("\rGee!\n");//\r回车符
+	return 0;
+}
+```
+
