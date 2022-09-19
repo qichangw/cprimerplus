@@ -12,7 +12,7 @@
 
 5.\n为转义序列（escape sequence）表示难以输出或无法输出的字符有换行之意
 
-6.%d占位符，为变量占一个整数值；
+6.%d转换说明，为变量占一个整数值；
 
 7.variable命名时不要超过63个字符，不可以以数字开头，数字，字母，_（下划线）均表示一个字符；
 
@@ -150,3 +150,34 @@ int main() {
 }
 ```
 
+## 字符串和格式化输入/输出
+
+1.#define
+
+定义后编译器会自动替换常量称为编译时替换（compile-time substitution）
+
+格式#define NAME value切记不可以加=
+
+以#define定义的变量称为明示常量(mamifest constant)
+
+#define既可以定义字符也可以定义字符串
+
+2.c语言通常使用大写字母和c _和k _来表示常量
+
+3.字符串数组
+
+形式char name[c_n];
+
+或char* name=“zifuchuan”
+
+4.sizeof（）或sizeof variable 
+
+转换说明(Conversion specification）%zd;
+
+计算字符串的大小时，计入\0，
+
+5.strlen()
+
+Conversion specification:%zd;计算字符串大小时不计入\0
+
+6.由于sizeof和strlen()的特性在对字符串处理过程中应用广泛
