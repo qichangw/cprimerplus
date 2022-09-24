@@ -15,7 +15,7 @@
     </Filter>
   </ItemGroup>
   <ItemGroup>
-    <ClCompile Include="程序清单4.5-defines.c">
+    <ClCompile Include="程序清单4.8-floats.c">
       <Filter>源文件</Filter>
     </ClCompile>
   </ItemGroup>
