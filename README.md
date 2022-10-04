@@ -290,3 +290,21 @@ pound(f);//pound((int)f);
 ```
 
 以上即为强制类型转换的示例。
+
+## C控制语句：循环
+
+### while循环
+
+1.样式：
+
+while（entry condition）
+
+{循环体}
+
+2.true和false：只有0是假其他值全为真。
+
+3.空语句（null statement）：可以用来跳过某类型数的输入条件：只有不是该类型的数据下面的statement才会执行。
+
+4.循环的本质就是迭代（iteration），P119
+
+5.
