@@ -299,12 +299,85 @@ pound(f);//pound((int)f);
 
 while（entry condition）
 
-{循环体}
+{循环体}//循环体内应当存在使测试变量发生改变的statement。
 
-2.true和false：只有0是假其他值全为真。
+2.true和false：只有0是假其他值全为真。//0假非0真
 
 3.空语句（null statement）：可以用来跳过某类型数的输入条件：只有不是该类型的数据下面的statement才会执行。
 
+```c
+//例如
+while（scanf（%d,&num)==1)
+    ;
+//该语句表示如果输入了整数一直循环，只有不在输入整数时循环才会继续进行下去
+```
+
 4.循环的本质就是迭代（iteration），P119
 
-5.
+![循环迭代图解 的图像结果](https://tse3-mm.cn.bing.net/th/id/OIP-C.Xe_d6v5vbUYfVXj4FEXjKAAAAA?w=115&h=180&c=7&r=0&o=5&dpr=1.5&pid=1.7)
+
+5.伪代码（pseudocode）：使用简单的语句表示程序思路。有助于理解代码。
+
+6.relational operator（关系运算符）：<,==,!=,>,<=,>=,==。
+
+7.scanf（）函数的返回值为输入与转换说明的匹配次数。
+
+8.下面是对scanf()错误使用的示例：
+
+```c
+#include<stdio.h>
+int main() {
+	long num;
+	long sum = 0L;
+	int status;
+
+	printf("Please enter an integer to be summed ");
+	printf("(q to quit): ");
+	status = scanf("%ld", &sum);
+	while (status = 1)//a false the entry condition always is true
+	{
+		sum = sum + num;
+		printf("Please enter next integer (q to quit): ");
+		status = scanf("%ld", &num);
+	}
+	printf("Those integers sum to %ld.\n", sum);
+	
+	getchar();
+	return 0;
+
+}
+```
+
+但该程序输入q等字母时:循环将一直进行下去出现无限循环。原因是：当scanf（）读取到q时，他的读取位置不会发生改变下次读取仍然是原位置开始读取，仍然读取q仍然会错误所以循环就一直进行下去了。
+
+9._Bool变量只有0和1.
+
+10.优先级问题：通过所写代码推测应该和正常的数学优先级是相同的。
+
+11.两种循环：不确定循环（indefinite loop）在测试表达式为假前不知道要进行几次循环。上面的示例就是一个有点瑕疵的indefinite loop。
+
+计数循环（counting loop），可以通过数学运算得出循环次数的loop。
+
+12.最灵活的循环for循环。p130给出了许多例子
+
+for(initialize;test;update)
+
+​		statement.
+
+13.逗号运算符：逗号运算符的左侧都会在执行逗号运算符的右侧之前进行。也就是说如果你写在逗号运算符左侧的变式可能并不像你想的那样运行。
+
+​	同样使用，的叫做分隔符。要与逗号运算符区分开。
+
+14.最后的循环-唯一的出口条件循环（exit-condition loop）
+
+do
+
+​	statement
+
+while（expression）；
+
+15.数组（array），存储相同类型变量的集合，我们可以通过下标访问数组元素（element）。
+
+三个用于识别数组元素的名称：下标（subscript），索引（indice），偏移量（offset）。
+
+16.函数。C语言的特点是先声明一个函数被称为前置声明（forward declaration）只有声明后main函数才能调用它。
