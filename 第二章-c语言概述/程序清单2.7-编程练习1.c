@@ -7,3 +7,4 @@ int main() {
 	printf("My last name is wang.");
 	return 0;
 }
+//较为简单的程序不写伪代码

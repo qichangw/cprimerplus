@@ -13,3 +13,10 @@ void butler(void)
 {
 	printf("You rang, sir?\n");
 }
+/* 首先声明一个前置函数butler
+* 使用printf()打印需要的word
+* 调用函数
+* 使用printf()打印需要的word
+* 编写函数体butler
+* 使用printf()打印需要的word
+*/

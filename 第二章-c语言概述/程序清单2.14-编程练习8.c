@@ -15,3 +15,4 @@ void one_there() {
 void two() {
 	printf("two\nthere\n");
 }
+//¼òµ¥

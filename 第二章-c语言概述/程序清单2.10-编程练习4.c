@@ -14,3 +14,7 @@ void jolly() {
 void deny() {
 	printf("which nobody can deny!\n");
 }
+/*声明了两个前置函数jolly和deny
+* 调用函数
+* jolly函数和deny函数分别打印不同的内容
+*/

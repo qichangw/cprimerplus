@@ -12,3 +12,8 @@ int main()
 
 	return 0;
 }
+/*声明两个变量feet 和 fathoms
+* 将变量fathoms赋值为2
+* 将feet赋值为6*fathoms
+* 使用printf()打印想要的数据
+*/
