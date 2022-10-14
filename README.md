@@ -358,6 +358,8 @@ int main() {
 
 计数循环（counting loop），可以通过数学运算得出循环次数的loop。
 
+### for循环
+
 12.最灵活的循环for循环。p130给出了许多例子
 
 for(initialize;test;update)
@@ -367,6 +369,8 @@ for(initialize;test;update)
 13.逗号运算符：逗号运算符的左侧都会在执行逗号运算符的右侧之前进行。也就是说如果你写在逗号运算符左侧的变式可能并不像你想的那样运行。
 
 ​	同样使用，的叫做分隔符。要与逗号运算符区分开。
+
+### do  while循环
 
 14.最后的循环-唯一的出口条件循环（exit-condition loop）
 
