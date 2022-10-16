@@ -385,3 +385,50 @@ while（expression）；
 三个用于识别数组元素的名称：下标（subscript），索引（indice），偏移量（offset）。
 
 16.函数。C语言的特点是先声明一个函数被称为前置声明（forward declaration）只有声明后main函数才能调用它。
+
+## C控制语句：分支和跳转
+
+### if/if……else/elseif-分支语句（branching statement）或选择语句（selection statement）
+
+1.if{
+
+statement
+
+}
+
+2.if{
+
+statement
+
+}else
+
+3.需要注意的是else与if之间中间只能有一个语句（复合语句和简单语句）。
+
+4.c编译器要求至少支持127层嵌套if语句。
+
+5.putchar();-printf("%c",ch);
+
+ch=getchar();-scanf("%c",&ch);
+
+6.#include<ctype.h>
+
+头文件中包含着大量函数**p156**有详细介绍
+
+7.#include<stdbool.h>
+
+内部包含着true和false以及bool的函数原型。
+
+8.#include<iso646.h>
+
+逻辑运算符备选。
+
+9.逻辑运算符：
+
+&&-逻辑且。
+
+||-逻辑或。
+
+！-逻辑非
+
+10易错点：变量的范围表示方法，切记不要使用数学方法表示函数范围，应使用逻辑运算符的方法表示范围。
+

@@ -31,4 +31,4 @@ int main() {
 	printf("Bye.\n");
 	getchar();
 	return 0;
-}
+}//think 1 is prime.but 1 isn't prime.
