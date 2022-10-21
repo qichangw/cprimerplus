@@ -5,7 +5,7 @@ VisualStudioVersion = 17.3.32901.215
 MinimumVisualStudioVersion = 10.0.40219.1
 Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "杂项", "杂项\杂项.vcxproj", "{8A390238-6119-4FB2-9CA4-985455384402}"
 EndProject
-Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "第八章：字符输入输出和输入验证", "第八章：字符输入输出和输入验证\第八章：字符输入输出和输入验证.vcxproj", "{38F2AB8B-EC96-44FF-B748-1B486FD75930}"
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "第九章：函数", "第九章：函数\第九章：函数.vcxproj", "{EBBD1FA0-D777-4F3F-98DC-ED0100CF7298}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -23,14 +23,14 @@ Global
 		{8A390238-6119-4FB2-9CA4-985455384402}.Release|x64.Build.0 = Release|x64
 		{8A390238-6119-4FB2-9CA4-985455384402}.Release|x86.ActiveCfg = Release|Win32
 		{8A390238-6119-4FB2-9CA4-985455384402}.Release|x86.Build.0 = Release|Win32
-		{38F2AB8B-EC96-44FF-B748-1B486FD75930}.Debug|x64.ActiveCfg = Debug|x64
-		{38F2AB8B-EC96-44FF-B748-1B486FD75930}.Debug|x64.Build.0 = Debug|x64
-		{38F2AB8B-EC96-44FF-B748-1B486FD75930}.Debug|x86.ActiveCfg = Debug|Win32
-		{38F2AB8B-EC96-44FF-B748-1B486FD75930}.Debug|x86.Build.0 = Debug|Win32
-		{38F2AB8B-EC96-44FF-B748-1B486FD75930}.Release|x64.ActiveCfg = Release|x64
-		{38F2AB8B-EC96-44FF-B748-1B486FD75930}.Release|x64.Build.0 = Release|x64
-		{38F2AB8B-EC96-44FF-B748-1B486FD75930}.Release|x86.ActiveCfg = Release|Win32
-		{38F2AB8B-EC96-44FF-B748-1B486FD75930}.Release|x86.Build.0 = Release|Win32
+		{EBBD1FA0-D777-4F3F-98DC-ED0100CF7298}.Debug|x64.ActiveCfg = Debug|x64
+		{EBBD1FA0-D777-4F3F-98DC-ED0100CF7298}.Debug|x64.Build.0 = Debug|x64
+		{EBBD1FA0-D777-4F3F-98DC-ED0100CF7298}.Debug|x86.ActiveCfg = Debug|Win32
+		{EBBD1FA0-D777-4F3F-98DC-ED0100CF7298}.Debug|x86.Build.0 = Debug|Win32
+		{EBBD1FA0-D777-4F3F-98DC-ED0100CF7298}.Release|x64.ActiveCfg = Release|x64
+		{EBBD1FA0-D777-4F3F-98DC-ED0100CF7298}.Release|x64.Build.0 = Release|x64
+		{EBBD1FA0-D777-4F3F-98DC-ED0100CF7298}.Release|x86.ActiveCfg = Release|Win32
+		{EBBD1FA0-D777-4F3F-98DC-ED0100CF7298}.Release|x86.Build.0 = Release|Win32
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
