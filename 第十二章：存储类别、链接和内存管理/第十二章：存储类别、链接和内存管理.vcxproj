@@ -19,17 +19,13 @@
     </ProjectConfiguration>
   </ItemGroup>
   <ItemGroup>
-    <ClCompile Include="Program file 11.33-strcnvt.c" />
-    <ClCompile Include="Program file11.10-s_gets().c" />
-  </ItemGroup>
-  <ItemGroup>
-    <ClInclude Include="s_get.h" />
+    <ClCompile Include="Program file 12.2-forc99.c" />
   </ItemGroup>
   <PropertyGroup Label="Globals">
     <VCProjectVersion>16.0</VCProjectVersion>
     <Keyword>Win32Proj</Keyword>
-    <ProjectGuid>{7aab0671-21f2-4422-8ad3-5dc0c6cfeebe}</ProjectGuid>
-    <RootNamespace>第十一章字符串和字符串函数</RootNamespace>
+    <ProjectGuid>{0e69f1cb-a87e-4455-9579-60c69c80c674}</ProjectGuid>
+    <RootNamespace>第十二章存储类别链接和内存管理</RootNamespace>
     <WindowsTargetPlatformVersion>10.0</WindowsTargetPlatformVersion>
   </PropertyGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.Default.props" />
@@ -77,9 +73,6 @@
     <Import Project="$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props" Condition="exists('$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props')" Label="LocalAppDataPlatform" />
   </ImportGroup>
   <PropertyGroup Label="UserMacros" />
-  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Release|x64'">
-    <TargetName>test</TargetName>
-  </PropertyGroup>
   <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">
     <ClCompile>
       <WarningLevel>Level3</WarningLevel>
