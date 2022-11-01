@@ -19,7 +19,11 @@
     </ProjectConfiguration>
   </ItemGroup>
   <ItemGroup>
-    <ClCompile Include="Program file 12.2-forc99.c" />
+    <ClCompile Include="Program file 12.11-diceroll.c" />
+    <ClCompile Include="Program file 12.13-manydice.c" />
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="diceroll.h" />
   </ItemGroup>
   <PropertyGroup Label="Globals">
     <VCProjectVersion>16.0</VCProjectVersion>

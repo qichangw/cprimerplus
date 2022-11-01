@@ -15,8 +15,16 @@
     </Filter>
   </ItemGroup>
   <ItemGroup>
-    <ClCompile Include="Program file 12.2-forc99.c">
+    <ClCompile Include="Program file 12.11-diceroll.c">
       <Filter>源文件</Filter>
     </ClCompile>
+    <ClCompile Include="Program file 12.13-manydice.c">
+      <Filter>源文件</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="diceroll.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
   </ItemGroup>
 </Project>
