@@ -18,11 +18,14 @@
       <Platform>x64</Platform>
     </ProjectConfiguration>
   </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="Program file 13.4-reverse.c" />
+  </ItemGroup>
   <PropertyGroup Label="Globals">
     <VCProjectVersion>16.0</VCProjectVersion>
     <Keyword>Win32Proj</Keyword>
-    <ProjectGuid>{0e69f1cb-a87e-4455-9579-60c69c80c674}</ProjectGuid>
-    <RootNamespace>第十二章存储类别链接和内存管理</RootNamespace>
+    <ProjectGuid>{74a3ec60-2a9e-45d6-a52e-4cb22f4fc03f}</ProjectGuid>
+    <RootNamespace>第十三章文件输入与输出</RootNamespace>
     <WindowsTargetPlatformVersion>10.0</WindowsTargetPlatformVersion>
   </PropertyGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.Default.props" />
